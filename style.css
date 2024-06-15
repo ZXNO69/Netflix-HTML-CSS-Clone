@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+
+.main .box{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.66;
+    position: absolute;
+    top: 0;
+}
+
+.logo{
+    padding: 24px 48px 24px 48px;
+}
+
+.logo img{
+    width: 160px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+nav{
+
+    max-width: 80vw;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.btn{
+    width: 125px;
+    height: 32px;
+    padding: 6px 36px 6px 36px;
+    margin-right: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    font-family: Poppins;
+}
+
+#btn1{
+    width: 75px;
+    height: 32px;
+    background-color: red;
+    color: white;
+    font-family: Poppins;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.hero{
+  
+
+    text-align: center;
+    height:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1{
+
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+}
+
+.hero p{
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h3{
+    font-family: sans-serif;
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top:40px ;
+}
+
+.subMain input{
+    width: 450px;
+    height: 56px;
+    background-color: #1B1918;
+    border: 0.1px solid gray;
+   
+    margin-top: 60px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 24px 16px 24px 16px;
+    position: relative;
+    z-index: 1;
+    opacity: 0.66;
+    bottom: 200px;
+    margin-left:380px;
+}
+
+
+
+.subMain{
+   
+}
+
+.subMain button{
+    position: relative;
+    bottom: 197px;
+    background-color: #C11119;
+    color: white;
+   font-size: 1.5rem;
+    box-sizing: border-box;
+    width: 205px;
+    height: 54px;
+    font-family: sans-serif;
+    border: none;
+}
+
+
+input::placeholder{
+    font-size: 16px;
+}
+
+
+.section{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.context{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+  
+}
+
+.context h3{
+    font-size: 48px;
+  
+}
+
+.com{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.com img{
+    width: 489px;
+    height: 367px;
+
+}
+
+.context p{
+    font-size: 24px;
+    display: flex;
+    align-self:center ;
+    margin-left: 60px;
+    margin-top:16px;
+    font-family: sans-serif;
+   
+   
+}
+
+
+.section1{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.section2{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.section3{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+
+.section1 .context p{
+    margin-left:100px;
+    margin-top: 16px;
+   
+}
